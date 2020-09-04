@@ -1,0 +1,14 @@
+C:\Users\Enes\Desktop\HugeInt\HugeInt\bin\Debug\HugeInt.exe.config
+C:\Users\Enes\Desktop\HugeInt\HugeInt\bin\Debug\HugeInt.exe
+C:\Users\Enes\Desktop\HugeInt\HugeInt\bin\Debug\HugeInt.pdb
+C:\Users\Enes\Desktop\HugeInt\HugeInt\obj\Debug\HugeInt.csprojAssemblyReference.cache
+C:\Users\Enes\Desktop\HugeInt\HugeInt\obj\Debug\HugeInt.csproj.CoreCompileInputs.cache
+C:\Users\Enes\Desktop\HugeInt\HugeInt\obj\Debug\HugeInt.exe
+C:\Users\Enes\Desktop\HugeInt\HugeInt\obj\Debug\HugeInt.pdb
+D:\Maker\EnesSahin\Projects\C#\HugeInt\HugeInt\bin\Debug\HugeInt.exe.config
+D:\Maker\EnesSahin\Projects\C#\HugeInt\HugeInt\bin\Debug\HugeInt.exe
+D:\Maker\EnesSahin\Projects\C#\HugeInt\HugeInt\bin\Debug\HugeInt.pdb
+D:\Maker\EnesSahin\Projects\C#\HugeInt\HugeInt\obj\Debug\HugeInt.csprojAssemblyReference.cache
+D:\Maker\EnesSahin\Projects\C#\HugeInt\HugeInt\obj\Debug\HugeInt.csproj.CoreCompileInputs.cache
+D:\Maker\EnesSahin\Projects\C#\HugeInt\HugeInt\obj\Debug\HugeInt.exe
+D:\Maker\EnesSahin\Projects\C#\HugeInt\HugeInt\obj\Debug\HugeInt.pdb
