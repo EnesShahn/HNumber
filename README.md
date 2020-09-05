@@ -1,4 +1,7 @@
 # Incremental Numbers Libray
+
+---UNDER DEVELOPMENT---
+
 This library was specifically made for games where numbers go infinitly.
 
 A while ago I've made an Idle/Incremental game and I used the built-in data types which offcourse had its limits. After a while players started approaching the limits so I've made this library to solve that problem.
