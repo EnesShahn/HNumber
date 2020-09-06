@@ -5,9 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Numerics;
 using System.Threading;
-using Common;
 
-namespace HugeInt
+namespace INLib
 {
     class Program
     {
@@ -15,12 +14,20 @@ namespace HugeInt
         {
             Random rdm = new Random(0);
 
-            double value1 = 12;
+            string num1Str = "8e54695";
+            string num2Str = "123456e-5";
+
+            HugeInt num1 = HugeInt.Parse(num1Str);
+            HugeInt num2 = HugeInt.Parse(num2Str);
+
+            Console.WriteLine("HugeInt Parsing {0}, result = {1}", num1Str, num1);
+            Console.WriteLine("BigInteger Parsing {0}, result = {1}", num2Str, num2);
+
+            double value1 = -12;
             double value2 = 10;
 
             int exp1 = 4;
-            int exp2 = 4;
-
+            int exp2 = 3;
 
             HugeInt huge1 = new HugeInt(value1, exp1);
             HugeInt huge2 = new HugeInt(value2, exp2);
@@ -30,15 +37,27 @@ namespace HugeInt
             big1 *= BigInteger.Pow(10, exp1);
             big2 *= BigInteger.Pow(10, exp2);
 
+            Console.WriteLine("HugeInt");
+            Console.WriteLine("Value1: {0} , Value2: {1}", huge1, huge2);
+            Console.WriteLine("BigInt");
+            Console.WriteLine("Value1: {0} , Value2: {1}", big1, big2);
+            Console.WriteLine();
 
-            HugeInt quotient1 = HugeInt.DivRem(huge1, huge2, out var remainder1);
-            BigInteger quotient2 = BigInteger.DivRem(big1, big2, out var remainder2);
 
-            HugeInt add1 = HugeInt.Add(huge1, huge2);
-            BigInteger add2 = BigInteger.Add(big1, big2);
+            HugeInt remainder1 = huge1 % huge2;
+            BigInteger remainder2 = big1 % big2;
 
-            HugeInt sub1 = HugeInt.Subtract(huge1, huge2);
-            BigInteger sub2 = BigInteger.Subtract(big1, big2);
+            HugeInt quotient1 = huge1 / huge2;
+            BigInteger quotient2 = big1 / big2;
+
+            HugeInt add1 = huge1 + huge2;
+            BigInteger add2 = big1 + big2;
+
+            HugeInt sub1 = huge1 - huge2;
+            BigInteger sub2 = big1 - big2;
+
+            HugeInt gcd1 = HugeInt.GreatestCommonDivisor(huge1, huge2);
+            BigInteger gcd2 = BigInteger.GreatestCommonDivisor(big1, big2);
 
             Console.WriteLine("HugeInt Divide: ");
             Console.WriteLine("{0} / {1} = {2}", huge1, huge2, quotient1);
@@ -46,10 +65,10 @@ namespace HugeInt
             Console.WriteLine("{0} / {1} = {2}", big1, big2, quotient2);
             Console.WriteLine();
 
-            Console.WriteLine("HugeInt DivRem: ");
-            Console.WriteLine("{0} / {1} = {2} {3}", huge1, huge2, quotient1, remainder1);
-            Console.WriteLine("BigInteger DivRem: ");
-            Console.WriteLine("{0} / {1} = {2} {3}", big1, big2, quotient2, remainder2);
+            Console.WriteLine("HugeInt Remainder: ");
+            Console.WriteLine("{0} / {1} = {2}", huge1, huge2, remainder1);
+            Console.WriteLine("BigInteger Remainder: ");
+            Console.WriteLine("{0} / {1} = {2}", big1, big2, remainder2);
             Console.WriteLine();
 
             Console.WriteLine("HugeInt Add: ");
@@ -62,6 +81,12 @@ namespace HugeInt
             Console.WriteLine("{0} - {1} = {2}", huge1, huge2, sub1);
             Console.WriteLine("BigInt Subtract: ");
             Console.WriteLine("{0} - {1} = {2}", big1, big2, sub2);
+            Console.WriteLine();
+
+            Console.WriteLine("HugeInt GCD: ");
+            Console.WriteLine("{0}  {1} = {2}", huge1, huge2, gcd1);
+            Console.WriteLine("BigInt GCD: ");
+            Console.WriteLine("{0}  {1} = {2}", big1, big2, gcd2);
             Console.WriteLine();
 
             Console.WriteLine("------");
