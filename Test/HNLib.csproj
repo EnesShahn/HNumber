@@ -62,11 +62,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HugeInt.cs" />
+    <Compile Include="HNumber.cs" />
+    <Compile Include="HInt.cs" />
+    <Compile Include="PrecisionMode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoundingMode.cs" />
+    <Compile Include="TMP.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HugeInt", "HugeInt.csproj", "{CB1E2BFE-7A50-4D49-A1E4-3350400A5FB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNLib", "HNLib.csproj", "{CB1E2BFE-7A50-4D49-A1E4-3350400A5FB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

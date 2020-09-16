@@ -1,0 +1,10 @@
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\obj\Debug\HNLib.csprojAssemblyReference.cache
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\obj\Debug\HNLib.csproj.CoreCompileInputs.cache
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\obj\Debug\HugeInt.exe
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\obj\Debug\HugeInt.pdb
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\bin\Debug\HugeInt.exe.config
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\bin\Debug\HugeInt.exe
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\bin\Debug\HugeInt.pdb
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\bin\Debug\Extreme.Numerics.dll
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\bin\Debug\Extreme.Numerics.xml
+D:\Maker\EnesSahin\Projects\C#\HugeInt\Test\obj\Debug\HNLib.csproj.CopyComplete
