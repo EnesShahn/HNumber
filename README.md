@@ -1,4 +1,4 @@
-# Incremental Numbers Libray
+# Huge Numbers Libray
 
 ---UNDER DEVELOPMENT = NOT READY FOR PRODUCTION---
 
