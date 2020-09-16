@@ -1,6 +1,6 @@
-# Incremental Numbers Libray
+# Huge Numbers Libray
 
----UNDER DEVELOPMENT---
+---UNDER DEVELOPMENT = NOT READY FOR PRODUCTION---
 
 This library was specifically made for games where numbers go infinitly.
 
