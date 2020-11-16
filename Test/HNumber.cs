@@ -3,6 +3,9 @@ using System.Numerics;
 using System.Xml;
 
 //TODO: add comparisons between doubles and hugeints aswell and BigInteger Too
+//TODO: Optimize Pow() by making constants (e.g. 10^1, 10^2, 10^3, 10^4, 10^5...)
+//TODO: Compare to object check type
+//TODO: GetHashCode improve
 
 namespace HNLib
 {
