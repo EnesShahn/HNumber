@@ -1,9 +1,12 @@
 ﻿namespace EnesShahn
 {
-    enum RoundingMode
+    namespace HNumber
     {
-        Precision,
-        PrecisionInt,
-        Int
+        enum RoundingMode
+        {
+            Precision,
+            PrecisionInt,
+            Int
+        }
     }
 }

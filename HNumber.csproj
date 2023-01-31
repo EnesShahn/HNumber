@@ -48,9 +48,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Extreme.Numerics, Version=7.0.14.0, Culture=neutral, PublicKeyToken=9e513770f58567b2, processorArchitecture=MSIL">
-      <HintPath>packages\Extreme.Numerics.7.0.14\lib\net46\Extreme.Numerics.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
@@ -71,7 +68,6 @@
   <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

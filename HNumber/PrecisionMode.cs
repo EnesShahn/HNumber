@@ -1,10 +1,13 @@
 ﻿namespace EnesShahn
 {
-    enum PrecisionMode
+    namespace HNumber
     {
-        UseHigher,
-        UseLesser,
-        KeepPrecision,
-        UseDefault
+        enum PrecisionMode
+        {
+            UseHigher,
+            UseLesser,
+            KeepPrecision,
+            UseDefault
+        }
     }
 }
